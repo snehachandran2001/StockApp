@@ -1,0 +1,43 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* MarketData.css */
+  .market-data {
+    padding: 20px;
+  }
+  
+  .data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .data-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .data-card h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .data-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

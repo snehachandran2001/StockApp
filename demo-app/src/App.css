@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App .main-content {
+  display: flex;
+  flex: 1;
+}
+
+.App .content {
+  margin-left: 200px;
+  padding: 20px;
+  flex: 1;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  .App .content {
+    margin-left: 0;
+  }
+}
